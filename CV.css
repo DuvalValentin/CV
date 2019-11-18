@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'vag-handwrittenvaghandwritten';
+    src: url('VAG-HandWritten-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+	font-family:'sawarabi-medium';
+  src: url('sawarabi-mincho-medium-webfont.woff') format('woff');
+}
+html
+{
+  /*display: flex; A enlever pour avoir format A4 en permanence*/
+}
+
+body
+{
+  font-family:'sawarabi-medium';
+   /*background : url("fond.jpeg") repeat fixed;*/
+   color: black;
+   width:21cm;
+   height:29.7cm;
+	 /*border: black 1px solid;*/
+   
+}
+/* que pour anglais
+.page
+{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+} */
+
+/*.statut
+{
+   text-align: center;
+   font-weight: bold;
+   font-family: 'vag-handwrittenvaghandwritten';
+   font-size: 2em;
+}*/
+
+a
+{
+  text-decoration: none;
+  color:black;
+}
+
+h1
+{
+   text-align: center;
+   color: red;
+   font-size: 3em;
+   margin-top:0;
+}
+
+.photo
+{
+   float: right;
+	 height: 200px;
+	margin-top: 15px;
+	margin-right: -40px;
+}
+
+#radar
+{
+	margin-top: -40px;
+	margin-right: 30px;
+	float: right;
+	height: 180px;
+}
+
+ul.listePrincipale, p.coordonnees
+{
+  font-family: 'sawarabi-medium';
+  border: 3px red outset;
+  border-radius:40px / 10px;
+  box-shadow: 6px 6px 6px gray;
+  text-shadow: 2px 2px 2px silver;
+  color: black;
+  text-align: justify;
+  overflow: auto;
+	margin-bottom: -5px;
+	margin-top: -10px;
+}
+
+p.coordonnees
+{
+	margin-top:auto;
+	border: 2px red outset;
+	max-width: 60%;
+  height: 170px;
+	text-align: center;
+	align-self: center;
+}
+
+li:hover
+{
+   color: red;
+}
+
+.language
+{
+  font-weight: bold;
+  color:red;
+}
+
+#blocs 
+{
+   clear: right;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: nowrap;
+   flex-direction: column;
+}
+.entete
+{
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+}
