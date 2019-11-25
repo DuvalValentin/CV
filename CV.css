@@ -90,7 +90,7 @@ p.coordonnees
 	margin-top:auto;
 	border: 2px red outset;
 	max-width: 60%;
-  height: 170px;
+  height: 140px;
 	text-align: center;
 	align-self: center;
 }
@@ -104,6 +104,10 @@ li:hover
 {
   font-weight: bold;
   color:red;
+}
+.tool
+{
+  font-weight: bold;
 }
 
 #blocs 
